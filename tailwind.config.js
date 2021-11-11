@@ -17,13 +17,15 @@ module.exports = {
       fontFamily: {
         nunito: ['Nunito', 'Roboto'],
       },
-      // colors: {
-      //   'bg-brand': '#FDFAF6',
-      //   'bg-brand-dark': '#FFF8EC',
-      //   'brand-primary': '#064420',
-      //   'brand-primary-light': '#386C5F',
-      //   'brand-secondary': '#6B7B6E',
-      // },
+      colors: {
+        'brand-bg': '#F1F7E7',
+        brand: '#2F5D62',
+        'brand-primary': '#5E8B7E',
+        'brand-primary-light': '#A7C4BC',
+        'brand-secondary': '#6B7B6E',
+        'text-brand': '#1C2B2D',
+        'text-brand-light': '#4C4C4C',
+      },
     },
   },
   variants: {

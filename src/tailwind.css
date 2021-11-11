@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .activeLink {
+    @apply font-extrabold border-b-4 border-brand text-brand;
+  }
+}

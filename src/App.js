@@ -1,12 +1,14 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 
 const App = () => {
   return (
-    <div className='container'>
-      <h1 className='text-6xl text-gray-500 font-nunito'>
-        Lorem ipsum dolor sit amet consectetur.
-      </h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+      </Routes>
+    </Router>
   );
 };
 
