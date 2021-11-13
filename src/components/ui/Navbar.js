@@ -33,7 +33,7 @@ const Navbar = ({ toggleMobileMenu, active }) => {
 
               <li className='py-2 ml-8 text-lg font-bold text-brand-secondary hover:text-brand'>
                 <NavLink
-                  to='/docs'
+                  to='/docs/accordion'
                   className={({ isActive }) =>
                     isActive ? 'activeLink' : 'blue'
                   }
