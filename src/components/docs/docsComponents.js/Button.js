@@ -1,6 +1,12 @@
 import React from 'react';
+import Footer from '../../ui/Footer';
 import Header from '../../ui/Header';
 import DocsNav from '../DocsNav';
+import DifferenSizes from './buttons/DifferenSizes';
+import DisabledButtons from './buttons/DisabledButtons';
+import NormalButton from './buttons/NormalButton';
+import OutlineButtons from './buttons/OutlineButtons';
+import PillButtons from './buttons/PillButtons';
 
 const Button = () => {
   return (
@@ -14,8 +20,15 @@ const Button = () => {
           <h1 className='text-3xl font-bold text-center md:text-4xl lg:text-5xl text-brand'>
             Buttons
           </h1>
+          <NormalButton />
+          <PillButtons />
+          <DifferenSizes />
+          <DisabledButtons />
+          <OutlineButtons />
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };
