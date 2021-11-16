@@ -66,4 +66,28 @@
   .btn-outline-dark {
     @apply font-medium text-gray-800 border-2 border-gray-700 hover:bg-gray-700 hover:text-white;
   }
+
+  .card {
+    @apply w-full overflow-hidden rounded-md shadow-lg md:w-4/12;
+  }
+
+  .card-img {
+    @apply h-auto max-w-full;
+  }
+
+  .card-content {
+    @apply px-3 py-3 md:px-5;
+  }
+
+  .card-title {
+    @apply my-3 text-xl font-semibold text-text-brand lg:text-2xl md:my-5;
+  }
+
+  .card-body {
+    @apply mb-3 text-sm font-medium text-text-brand-light md:mb-5 md:text-base;
+  }
+
+  .card-link {
+    @apply mb-3 font-semibold text-indigo-700 md:mb-5 md:text-lg;
+  }
 }
